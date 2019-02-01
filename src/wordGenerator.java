@@ -6,8 +6,8 @@ public class wordGenerator {
 	static char[] encryptedWord;
 	final String words_3[] = {"sun","die","new","age","bus","raw","bad","pie","art","gym"};
 	final String words_4[] = {"coin","load","find","pair","fill","soap","cash","hand","sick","tree"};
-	//final String words_4[] = {"word"};
-	final String words_5[] = {"style","brake","punch","youth","pilot","union","spend","pause","plane","trend"};
+	final String words_5[] = {"pause"};
+	//final String words_5[] = {"style","brake","punch","youth","pilot","union","spend","pause","plane","trend"};
 	final String words_6[] = {"coffee","lawyer","agenda","moment","refund","broken","insure","dragon","record","shrink"};
 	final String words_7[] = {"kitchen","clothes","company","neutral","gallery","deposit","failure","revenge","arrange","manager"};
 	final String words_8[] = {"graduate","prisoner","equation","sunshine","distance","patience","official","organize","elephant","talented"};
@@ -72,7 +72,7 @@ public class wordGenerator {
 	    word = array[rnd];
 	    char [] encryptedWord = word.toCharArray() ;
 	    this.encryptedWord = encryptedWord;
-	    System.out.print("The word is: ");
+	    System.out.print("\nThe word is: ");
 	    for (int i=0;i < array[rnd].length();i++)
 		{
 	    	System.out.print("*");
@@ -128,7 +128,7 @@ public class wordGenerator {
 			}
 			else if (new String(encryptedWord).equals(word))				// When the user guessed the word
 			{
-				System.out.println("\nThe Word is: " + word);
+				System.out.println("The Word is: " + word);
 				System.out.println("Congratulations You Won!");
 			}
 			found = false;
