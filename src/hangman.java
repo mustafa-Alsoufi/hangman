@@ -46,25 +46,20 @@ public class hangman {
 				
 				}
 		}
-			System.out.println("Would you like to try again? [y/Y]");
+			System.out.print("Would you like to try again? [y/Y] ");
 			Scanner play = new Scanner(System.in);
 			char ans = play.nextLine().charAt(0);
-			while (Character.toLowerCase(ans) !='y' || Character.toLowerCase(ans) !='n')
-			{
+			
 				if (Character.toLowerCase(ans) == 'y')
 				{
 				playing = true;
 				}
-			else if (Character.toLowerCase(ans) == 'n')
+				else
 				{
 					System.out.println("Have a good day!");
 					break;
 				}
-			else
-			{
-				System.out.println("Wrong Answer\nWould you like to try again? [y/Y]");
-				ans = play.nextLine().charAt(0);
-			}
+						
 			}
 			
 			
@@ -73,4 +68,4 @@ public class hangman {
 		
 	}
 
-}
+

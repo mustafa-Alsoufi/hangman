@@ -4,15 +4,14 @@ import java.util.Scanner;
 public class wordGenerator {
 	static String word;
 	static char[] encryptedWord;
-	final String words_3[] = {"sun","die","new","age","bus","raw","bad","pie","art","gym"};
-	final String words_4[] = {"coin","load","find","pair","fill","soap","cash","hand","sick","tree"};
-	final String words_5[] = {"pause"};
-	//final String words_5[] = {"style","brake","punch","youth","pilot","union","spend","pause","plane","trend"};
-	final String words_6[] = {"coffee","lawyer","agenda","moment","refund","broken","insure","dragon","record","shrink"};
-	final String words_7[] = {"kitchen","clothes","company","neutral","gallery","deposit","failure","revenge","arrange","manager"};
-	final String words_8[] = {"graduate","prisoner","equation","sunshine","distance","patience","official","organize","elephant","talented"};
-	final String words_9[] = {"paragraph","tradition","structure","pollution","waterfall","clearance","emergency","admission","hilarious","nightmare"};
-	final String words_10[] = {"incredible","prediction","investment","connection","girlfriend","reputation","programmer","settlement","generation","attractive"};
+	final String words_3[] = {"sun","die","new","age","bus","raw","bad","pie","art","gym","win","map","bed","bag","lip"};
+	final String words_4[] = {"coin","load","find","pair","fill","soap","cash","hand","sick","tree","lake","bear","bait","coal","salt"};
+	final String words_5[] = {"style","brake","punch","youth","pilot","union","spend","pause","plane","trend","story","essay","faith","hobby","tease"};
+	final String words_6[] = {"coffee","lawyer","agenda","moment","refund","broken","insure","dragon","record","shrink","expect","minute","letter","bucket","hotdog"};
+	final String words_7[] = {"kitchen","clothes","company","neutral","gallery","deposit","failure","revenge","arrange","manager","pattern","charity","tension","maximum","welcome"};
+	final String words_8[] = {"graduate","prisoner","equation","sunshine","distance","patience","official","organize","elephant","talented","surprise","weakness","activity","accident","argument"};
+	final String words_9[] = {"paragraph","tradition","structure","pollution","waterfall","clearance","emergency","admission","hilarious","nightmare","favourite","discovery","recording","situation","challenge"};
+	final String words_10[] = {"incredible","prediction","investment","connection","girlfriend","reputation","programmer","settlement","generation","attractive","assumption","understand","conclusion","mastermind","atmosphere"};
 	
 	hangman h = new hangman();
 
